@@ -49,7 +49,7 @@ make
 Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or create a pull request on the [GitHub repository](https://github.com/RAH-Code-dev/MeowScript).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/RAH-Code-dev/MeowScript/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 The MSC Interpreter was created by Milo Snow Cat. Special thanks to the feline community for the inspiration!

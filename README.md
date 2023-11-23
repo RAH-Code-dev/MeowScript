@@ -12,7 +12,7 @@ To use the MSC Interpreter, follow these steps:
 
 2. **Run a MSC Program:**
    ```bash
-   meowscript <filename.meow>
+   .\meowscript.exe <filename.meow>
    ```
 
    Replace `<filename.meow>` with the path to your MSC program file.
@@ -42,7 +42,7 @@ This program increments the ASCII value 65 times, decrements it once, increments
 If you want to build the MSC Interpreter from source, make sure you have a C compiler installed. Use the following commands:
 
 ```bash
-make install
+make
 ```
 
 ## Contributing

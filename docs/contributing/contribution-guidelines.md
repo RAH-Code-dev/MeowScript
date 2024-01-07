@@ -1,6 +1,6 @@
 # Contribution Guide
 
-Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or create a pull request on the [GitHub repository](https://git.dev.rahcode.com/MeowScript).
+Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or create a pull request on the [GitHub repository](https://github.com/RAH-Code-dev/MeowScript).
 
 To contribute, follow these steps:
 

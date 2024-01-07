@@ -8,7 +8,7 @@ The MSC Interpreter is a simple command-line tool written in C that interprets a
 To use the MSC Interpreter, follow these steps:
 
 1. **Download the Interpreter:**
-   You can download the MSC Interpreter for Windows [here](https://git.dev.rahcode.com/MeowScript/releases/latest)
+   You can download the MSC Interpreter for Windows [here](https://github.com/RAH-Code-dev/MeowScript/releases/latest)
 
 2. **Run a MSC Program:**
    ```bash
@@ -46,7 +46,7 @@ make
 ```
 
 ## Contributing
-Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or create a pull request on the [GitHub repository](https://git.dev.rahcode.com/MeowScript).
+Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or create a pull request on the [GitHub repository](https://github.com/RAH-Code-dev/MeowScript).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -8,7 +8,7 @@ Welcome to the official documentation for MeowScript, the programming language i
 - [Language Reference](./language-reference/commands.md)
 - [Compilation](./building/building-from-source.md)
 - [Contribution](./contributing/contribution-guidelines.md)
-- [License](./license/license.md)
+- [License](./license/info.md)
 - [Acknowledgments](./acknowledgments/acknowledgments.md)
 - [Contact](./contact/contact.md)
 - [FAQ](./faq/general-faq.md)

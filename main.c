@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * The function interprets a MeowScript program by incrementing, decrementing, or outputting ASCII
+ * values based on specific keywords.
+ * 
+ * @param program The `program` parameter is a pointer to a character array (string) that represents
+ * the MeowScript program to be interpreted.
+ */
 void interpretMeowScript(const char* program) {
     int asciiValue = 0;
     const char* meow = "meow";
@@ -24,6 +31,18 @@ void interpretMeowScript(const char* program) {
     }
 }
 
+/**
+ * This C program reads a file containing a MeowScript program, interprets the program, and prints the
+ * output.
+ * 
+ * @param argc The `argc` parameter is an integer that represents the number of command-line arguments
+ * passed to the program. It stands for "argument count".
+ * @param argv The `argv` parameter is an array of strings that represents the command-line arguments
+ * passed to the program. In this case, `argv` is expected to have two elements:
+ * 
+ * @return The main function is returning an integer value. In this case, it is returning 0, indicating
+ * successful execution of the program.
+ */
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "Usage: %s <filename.meow>\n", argv[0]);

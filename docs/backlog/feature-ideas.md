@@ -3,12 +3,12 @@
 1. **Interactive Mode:**
    - Allow users to run the interpreter interactively, inputting MSC commands one by one.
    - Output results in real-time during interactive sessions.
-   - **Status:** In Progress
+   - **Status:** Done
 
 2. **Variable Support:**
    - Introduce support for variables in the MSC language.
    - Allow users to declare, assign values to, and manipulate variables in their programs.
-   - **Status:** Pending
+   - **Status:** In Progress
 
 3. **Debugging Support:**
    - Implement a debugging mode for step-by-step program execution.

@@ -31,6 +31,32 @@ void interpretMeowScript(const char* program) {
     }
 }
 
+int interactive() {
+    char buffer[256];
+    char *inputHistory = NULL;
+    size_t totalSize = 0;
+
+    printf("MeowScript's Interactive Mode :3 (Ctrl+D to exit):\n> ");
+
+    while(fgets(buffer, sizeof(buffer), stdin) != NULL) {
+        size_t bufferSize = strlen(buffer);
+
+        inputHistory = realloc(inputHistory, totalSize + bufferSize + 1);
+        if(inputHistory == NULL) {
+            perror("Error reallocating memory for input history");
+            return 1;
+        }
+
+        strcpy(inputHistory + totalSize, buffer);
+        totalSize += bufferSize;
+
+        interpretMeowScript(inputHistory);
+        printf("\n> ");
+    }
+
+    return 0;
+}
+
 /**
  * This C program reads a file containing a MeowScript program, interprets the program, and prints the
  * output.
@@ -45,8 +71,7 @@ void interpretMeowScript(const char* program) {
  */
 int main(int argc, char *argv[]) {
     if (argc != 2) {
-        fprintf(stderr, "Usage: %s <filename.meow>\n", argv[0]);
-        return 1;
+        return interactive();
     }
 
     FILE *file = fopen(argv[1], "r");
